@@ -1,0 +1,299 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+header {
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 5px 30px 5px 30px;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 2px solid yellowgreen;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .text {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .logs{
+    height: 350px;
+    border-radius: 50%;
+  }
+  .p{
+    color: #9ca100;
+    font-size: 70px;
+  }
+.logo img{
+	border-radius: 50%;
+	position:top;
+	left: 10px;
+	width: 60px;
+	height: 60px;
+}
+.agay img{
+	border-radius: 50%;
+	position:top;
+	width: 60px;
+	height: 60px;
+}
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+section {
+    background-image: url('cpsu1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0 0 20px 0;
+}
+
+p {
+    font-size: 37px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0;
+    margin-right: 55px;
+    font-family: emoji;
+    font-weight: bolder;
+}
+.c p{
+ font-size: 65px;
+}
+
+.con {
+    padding: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .image {
+    width: 30%;
+  }
+  
+  .text {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+h2 {
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0;
+    margin-left: 15px;
+}
+.dean{
+    display: block;
+    margin: 0% auto;
+}
+h1{
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid white;
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    color: #333;
+  }
+  
+  .card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .card a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    opacity: 0.8;
+  }
+
+
+section:nth-child(odd) {
+	background-image: url(cpsu1.jpg);
+}
+
+  .contain{
+    margin-top: 10%;
+    font-size: 69px;
+    font-weight: bolder;
+    font-family: emoji;
+  }
+  h5{
+    font-size: xx-large;
+    color: black;
+    font-weight: bold;
+  }
+  form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid white;
+    backdrop-filter: blur(7px);
+
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    float: inline-start;
+}
+
+input, select, textarea {
+    width: 100%;
+    background-color:transparent;
+    border: 1px solid #ccc;
+    border: none;
+    border-bottom: 2px solid rgb(245, 242, 238);
+    outline: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+.enroll,.del,.pri{
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    font-family: emoji;
+    color: black;
+}
+.containers {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: xxx-large;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="emails"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
